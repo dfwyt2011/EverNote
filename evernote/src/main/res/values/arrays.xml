@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_notetype_list">
+        <item>"默认笔记"</item>
+        <item>"生活笔记"</item>
+        <item>"工作笔记"</item>
+        <item>"学习笔记"</item>
+    </string-array>
+
+   <!-- <string-array name="default_notetype_list">
+        <item>"default"</item>
+        <item>"life"</item>
+        <item>"work"</item>
+        <item>"study"</item>
+    </string-array>-->
+
+</resources>

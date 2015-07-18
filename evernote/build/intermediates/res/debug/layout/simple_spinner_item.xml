@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    style="?android:attr/spinnerItemStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:ellipsize="marquee"
+    android:singleLine="true"
+    android:textSize="@dimen/abc_text_size_medium_material"
+    android:textAlignment="inherit" /><!-- From: file:/D:/BaiduYunDownload/Notes-master/evernote/src/main/res/layout/simple_spinner_item.xml -->

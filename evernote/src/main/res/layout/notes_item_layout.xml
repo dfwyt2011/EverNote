@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/note_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="4dp"
+    tools:minWidth="160dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/note_title_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:lineSpacingExtra="2dp"
+                android:maxLines="14"
+                android:paddingBottom="4dp"
+                android:paddingLeft="6dp"
+                android:paddingTop="6dp"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                tools:text="Note title" />
+
+            <TextView
+                android:id="@+id/note_type_text"
+                android:padding="4dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@android:color/black"
+                android:paddingBottom="4dp"
+                android:paddingLeft="6dp"
+                android:paddingTop="6dp"
+                android:textSize="@dimen/abc_text_size_small_material"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Note Type"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/note_content_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lineSpacingExtra="2dp"
+            android:maxLines="40"
+            android:padding="6dp"
+            android:textColor="#848484"
+            android:textSize="@dimen/abc_text_size_small_material"
+            tools:text="Note content"/>
+
+        <TextView
+            android:id="@+id/note_create_time_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:padding="2dp"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            tools:text="2015-5-24:16:05"
+            android:gravity="right" />
+
+        <TextView
+            android:id="@+id/note_last_edit_time_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:padding="2dp"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            tools:text="2015-5-24:16:05"
+            android:gravity="right" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

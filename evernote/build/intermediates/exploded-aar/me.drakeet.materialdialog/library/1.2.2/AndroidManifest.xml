@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="me.drakeet.materialdialog"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="8"
+    android:versionName="1.2.2" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+</manifest>

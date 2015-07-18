@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\liaobb\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\2.4.0\ddd166d01b3158d1c00576d29f7ed15c030df719\eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="D:\BaiduYunDownload\Notes-master\evernote\build\intermediates\pre-dexed\debug\eventbus-2.4.0-211eccbef6dfd5c9566bf145f2159e390495e4f2.jar" />
+    </item>
+
+</items>

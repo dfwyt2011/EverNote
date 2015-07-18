@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/jenzz/Developer/MaterialPreference/library/src/main/res/values/mp_attrs.xml -->
+    <eat-comment/>
+    <attr format="reference|color" name="mp_colorAccent"/>
+</resources>

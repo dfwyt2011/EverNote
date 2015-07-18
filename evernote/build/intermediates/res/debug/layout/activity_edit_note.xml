@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.liaobb.evernote.ui.EditNoteActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/note_type_spinner_prompt"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/abc_text_size_small_material" />
+
+            <Spinner
+                android:id="@+id/note_type_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/title_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/note_title_hint"
+            app:met_hideUnderline="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/content_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/note_content_hint"
+            android:lineSpacingExtra="4dp"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelAlwaysShown="true"
+            app:met_floatingLabelText="@string/note_content"
+            app:met_floatingLabelTextColor="?attr/colorPrimary"
+            app:met_hideUnderline="true"
+            app:met_primaryColor="?attr/colorPrimary" />
+
+        <TextView
+            android:id="@+id/create_time_line_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/create_time_line_default"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/abc_text_size_small_material" />
+
+        <TextView
+            android:id="@+id/last_editor_time_line_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/editor_time_line_default"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/abc_text_size_small_material" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+<!-- From: file:/D:/BaiduYunDownload/Notes-master/evernote/src/main/res/layout/activity_edit_note.xml -->

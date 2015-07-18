@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.SwitchCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/switch_compat"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:focusable="false"
+    android:clickable="false"
+    /><!-- From: file:/Users/jenzz/Developer/MaterialPreference/library/src/main/res/layout/mp_switch_preference.xml --><!-- From: file:/D:/BaiduYunDownload/Notes-master/evernote/build/intermediates/exploded-aar/com.jenzz/materialpreference/1.3/res/layout/mp_switch_preference.xml -->

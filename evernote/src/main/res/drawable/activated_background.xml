@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/abc_list_pressed_holo_dark" android:state_activated="true" />
+    <item android:drawable="@drawable/abc_list_pressed_holo_dark" android:state_pressed="true" />
+    <item android:drawable="@drawable/abc_list_pressed_holo_dark" android:state_long_pressable="true" />
+    <item android:drawable="@android:color/transparent" />
+</selector>

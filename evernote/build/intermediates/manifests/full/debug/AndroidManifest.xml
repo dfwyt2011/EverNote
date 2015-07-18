@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.liaobb.evernote"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:name="com.liaobb.evernote.common.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.liaobb.evernote.ui.MainActivity"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.liaobb.evernote.ui.SettingActivity"
+            android:label="@string/title_activity_setting" />
+        <activity
+            android:name="com.liaobb.evernote.ui.EditNoteActivity"
+            android:label="@string/title_activity_edit_note" />
+        <activity
+            android:name="com.liaobb.evernote.ui.EditNoteTypeActivity"
+            android:label="@string/title_activity_edit_note_type" />
+    </application>
+
+</manifest>

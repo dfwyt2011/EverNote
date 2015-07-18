@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">极致笔记</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+    <string name="toolbar_title">极致笔记</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="notes_menu_life">生活笔记</string>
+    <string name="notes_menu_work">工作笔记</string>
+    <string name="notes_menu_study">学习笔记</string>
+    <string name="notes_menu_other">其它笔记</string>
+    <string name="notes_menu_default">默认笔记</string>
+
+    <string name="notes_menu_settings">设置</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="right_hand_mode_key">right_hand_mode_key</string>
+    <string name="general_settings">常规设置</string>
+    <string name="other">其它设置</string>
+
+    <string name="right_hand_mode">右手操作模式</string>
+    <string name="right_hand_mode_summary">开启右手操作模式，侧边栏将从右边划开，默认从左边划开</string>
+
+    <string name="give_favor_key">give_favor_key</string>
+    <string name="give_favor">给应用点赞</string>
+
+    <string name="clear_database_key">clear_database_key</string>
+    <string name="clear_database">清空笔记记录</string>
+    <string name="cleal_database_summary">点击此项，将清空所有笔记记录，谨慎使用</string>
+
+    <string name="restore_defaultSettings">还原默认设置</string>
+    <string name="restore_defaultSettings_key">restore_defaultSettings_key</string>
+    <string name="restore_defaultSettings_summary">该应用将回到最初始状态，以此同时所有笔记本记录都会被清空，谨慎使用</string>
+
+    <string name="advice_feedback_key">advice_feedback_key</string>
+    <string name="advice_feedback">意见反馈</string>
+    <string name="search">搜索</string>
+    <string name="action_orderItem">排序方式</string>
+    <string name="action_showItem">查看选项</string>
+    <string name="action_syncItem">同步</string>
+    <string name="title_activity_edit_note">EditNoteActivity</string>
+
+    <string name="edit_note_type_add">新的笔记</string>
+    <string name="edit_note_type_edit">编辑笔记</string>
+    <string name="note_title_hint">输入标题</string>
+    <string name="note_content_hint">这里添加笔记内容</string>
+
+    <string name="note_content">笔记内容</string>
+    <string name="note_shortcut_title">快捷方式</string>
+    <string name="note_type_hint">查看笔记本</string>
+    <string name="note_tag_hint">查看标签</string>
+
+    <string name="note_type_dialogTitle">选择笔记本</string>
+    <string name="note_tag_dialogTitle">选择标签</string>
+    <string name="add_note_tags_title">添加标签</string>
+    <string name="add_note_type_title">添加笔记本</string>
+    <string name="create_time_line_default">创建于：</string>
+    <string name="editor_time_line_default">编辑于：</string>
+    <string name="done">Done</string>
+    <string name="note_type_spinner_prompt">选择笔记本：</string>
+    <string name="action_cleanNoteItem">清空当前笔记本</string>
+    <string name="first_init_app_key">first_init_app_key</string>
+    <string name="edit">编辑</string>
+    <string name="exit_app">退出</string>
+    <string name="title_activity_edit_note_type">EditNoteTypeActivity</string>
+    <string name="edit_note_type_title">编辑笔记本</string>
+    <string name="add_note_type_item">点此输入添加笔记本</string>
+    <string name="delete_note_type_hint">输入空值，该笔记本将显示为未定义</string>
+    <string name="not_define_note_type">未定义</string>
+    <string name="add_note_type_help">如需重置笔记本到初始状态，点击：设置-还原默认设置</string>
+
+    <string name="today" formatted="false">今天\u0020%s</string>
+    <string name="before_day" formatted="false">%d\u0020天前</string>
+    <string name="before_month" formatted="false">%d\u0020个月前</string>
+    <string name="before_year" formatted="false">%d\u0020年前</string>
+    <string name="card_note_item_layout_key">card_note_item_layout_key</string>
+    <string name="card_note_item_layout">卡片式笔记</string>
+    <string name="card_note_item_layout_summary">默认是线性布局</string>
+    <string name="select_show_note_list_item">选择列表查看项</string>
+    <string name="note_list_noteType_item">笔记类型</string>
+    <string name="note_list_createTime_item">创建时间</string>
+    <string name="note_list_lastEditorTime_item">最后编辑时间</string>
+    <string name="not_save_note_leave_tip">笔记已经发生变化，是否保存后再离开</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="delete_note_hint">删除后没法恢复，你确定要删除该笔记么？</string>
+    <string name="delete_note_success">删除笔记成功</string>
+    <string name="select_order_type_note_list">选择列表排序方式</string>
+    <string name="order_title_item">按标题名称排序</string>
+    <string name="order_createTime_item">按创建时间排序</string>
+    <string name="order_laseEdit_item">按最新编辑时间排序</string>
+    <string name="no_email_app_tip">请先安装邮件应用并设置账户,或直接发送邮件至 1250440341@qq.com</string>
+    <string name="search_note">搜索笔记</string>
+    <string name="sync_note_key">sync_note_key</string>
+    <string name="sync_note">同步笔记</string>
+    <string name="sync_note_summary">同步笔记待实现</string>
+    <string name="show_helpdoc">查看帮助</string>
+    <string name="show_help_key">show_help_key</string>
+    <string name="double_back_exit_hint">再按一次返回键退出应用</string>
+
+
+</resources>

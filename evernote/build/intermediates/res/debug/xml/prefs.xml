@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.jenzz.materialpreference.PreferenceCategory android:title="@string/general_settings">
+        <com.jenzz.materialpreference.Preference
+            android:key="@string/sync_note_key"
+            android:title="@string/sync_note"
+            android:summary="@string/sync_note_summary"/>
+
+        <com.jenzz.materialpreference.SwitchPreference
+            android:key="@string/right_hand_mode_key"
+            android:summary="@string/right_hand_mode_summary"
+            android:title="@string/right_hand_mode" />
+
+        <com.jenzz.materialpreference.CheckBoxPreference
+            android:key="@string/card_note_item_layout_key"
+            android:title="@string/card_note_item_layout"
+            android:summary="@string/card_note_item_layout_summary"/>
+
+        <com.jenzz.materialpreference.Preference
+            android:key="@string/clear_database_key"
+            android:summary="@string/cleal_database_summary"
+            android:title="@string/clear_database" />
+
+        <com.jenzz.materialpreference.Preference
+            android:key="@string/restore_defaultSettings_key"
+            android:summary="@string/restore_defaultSettings_summary"
+            android:title="@string/restore_defaultSettings" />
+
+    </com.jenzz.materialpreference.PreferenceCategory>
+
+    <com.jenzz.materialpreference.PreferenceCategory android:title="@string/other">
+        <com.jenzz.materialpreference.Preference
+            android:key="@string/advice_feedback_key"
+            android:title="@string/advice_feedback" />
+        <com.jenzz.materialpreference.Preference
+            android:key="@string/give_favor_key"
+            android:title="@string/give_favor" />
+        <com.jenzz.materialpreference.Preference
+            android:key="@string/show_help_key"
+            android:title="@string/show_helpdoc" />
+
+    </com.jenzz.materialpreference.PreferenceCategory>
+</PreferenceScreen><!-- From: file:/D:/BaiduYunDownload/Notes-master/evernote/src/main/res/xml/prefs.xml -->

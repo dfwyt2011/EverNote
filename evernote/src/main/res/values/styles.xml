@@ -1,0 +1,47 @@
+<resources>
+
+    <style name="AppTheme" parent="@style/AppBaseTheme"></style>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>-->
+
+        <!-- 状态栏和标题栏颜色-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <!-- 溢出菜单图标颜色-->
+        <item name="colorControlNormal">@android:color/white</item>
+
+        <item name="android:textColorPrimary">@color/text_color_primary</item>
+        <item name="android:textColorSecondary">@color/text_second_color_primary</item>
+        <item name="android:windowBackground">@color/window_background</item>
+
+        <item name="android:activatedBackgroundIndicator">@drawable/activated_background</item>
+        <!--<item name="selectableItemBackground">@drawable/selectable_background</item>-->
+
+        <item name="popupTheme">@style/popupTheme</item>
+        <item name="popupMenuStyle">@style/popupMenuStyle</item>
+
+        <item name="searchViewStyle">@style/SearchViewStyle</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextView</item>
+
+    </style>
+
+    <style name="popupTheme" parent="AppBaseTheme">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="popupMenuStyle" parent="Base.Widget.AppCompat.PopupMenu.Overflow"></style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="queryBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="AutoCompleteTextView" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+
+</resources>
